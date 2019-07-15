@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+  background-color: #FAFAFA;
+  background: #FAFAFA url(./assets/background.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+.id-logo {
+  width: 90%;
+}
+.wrapper {
+  padding-top: 50px;
+  min-height: 100vh;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: #454545;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.new-employee-btn {
+  margin-top: 20px;
+  width: 100%;
+}
+.profile-image {
+  width: 75px;
+}
+.profileBlock {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: left;
+  font-size: 15px;
+  -webkit-box-shadow: 10px 10px 69px -14px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 69px -14px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 69px -14px rgba(0,0,0,0.75);
+}
+.profileBlock:hover {
+  cursor: pointer;
+}
+.formBlock {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 10px 10px 69px -14px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 69px -14px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 69px -14px rgba(0,0,0,0.75);
+}
+.listEmployees {
+  margin-top: 20px;
+}
+.sort {
+  margin-bottom: 20px;
+}
+.profileName {
+  font-size: 17px;
+  font-weight: bold;
+}
+input {
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 20px;
+}
+form {
+  text-align: left;
+  font-size: 15px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
